@@ -1,9 +1,10 @@
 # Annotations Comparator
 
-This app is used to compare text annotation on a given manuscript.
+This app is used to compare text annotations on a given manuscript.
 There are two main tools used for annotations comparison.
-1) Comapre Annotations - Given a manuscript which was annotated by multiple annotators, gathers all matching annotations and combine them to a single annotations box. This is mainly used in case there are more than 2 annotators for a given manuscript.
-2) Comapre Versions - Given a manuscript, chapter number, page number and two annotations versions, comparing annotations 1 to 1 and displays the diff between these two, using https://github.com/kpdecker/jsdiff diff library.
+1) Compare Annotations - Given a manuscript which was annotated by multiple annotators, gathers all matching annotations and combine them to a single annotations box. This is mainly used in case there are more than 2 annotators for a given manuscript.
+The annotation box will be colored according to the match percentage of the annotations, see the color map in the top left corner of the app.
+2) Compare Versions(diff) - Given a manuscript, chapter number, page number and two annotations versions, comparing annotations 1 to 1 and displays the diff between these two, using https://github.com/kpdecker/jsdiff diff library.
 For developer notes, see - devnotes.txt.
 
 This app extends the git of https://github.com/hodamr/ngx-manusctipts-viewer/ student work.
